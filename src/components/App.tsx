@@ -20,8 +20,8 @@ export default function App() {
       <p>
         x: {values.x}, y: {values.y}
       </p>
-      <button onClick={() => updateValue('x')}>Update x</button>
-      <button onClick={() => updateValue('y')}>Update y</button>
+      <button onClick={() => updateValue('x')}>Update x:</button>
+      <button onClick={() => updateValue('y')}>Update y:</button>
     </div>
   );
 }
